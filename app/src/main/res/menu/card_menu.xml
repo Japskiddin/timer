@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_card_change"
+        android:title="@string/change"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_card_remove"
+        android:title="@string/card_menu_remove"
+        app:showAsAction="never" />
+</menu>

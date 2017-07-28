@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Minuteur</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="close">Fermer</string>
+    <string name="time_is_now">Le temps est venu!</string>
+    <string name="timer_expired">La minuterie a expiré</string>
+    <!-- About -->
+    <string name="Vote_text">Vous aimez ce soft?\nNoter dans Google Play!\nNous, en tant que développeurs, serons très heureux!</string>
+    <string name="Vote_text_ok">Noter!</string>
+    <string name="Text_to_vote">Nous serons très reconnaissants pour les commentaires et avis laissés</string>
+    <string name="title_activity_about">À propos du programme</string>
+    <string name="Share_text_ask">Vous aimez ce soft?\nFaites-nous en amis et connaissances SVOM!</string>
+    <string name="Share_text_ok">Partager!</string>
+    <string name="Share_text_cancel">Garder le silence</string>
+    <string name="Share_text">Part \nс amis</string>
+    <string name="AboutText">Nom du programme:</string>
+    <string name="Developer">Développeur: Vladimir Timofeev</string>
+    <string name="Site">Auteur du site:</string>
+    <string name="Market_error">Impossible d\'ouvrir le jeu de Google, s\'il vous plaît réinstaller.</string>
+    <string name="Choose_email_client">Sélectionnez une application pour envoyer un message:</string>
+    <string name="Share_error">Installer des applications sociales et essayez à nouveau.</string>
+    <string name="Share_via">Partager par</string>
+    <string name="Text_later">Tard</string>
+    <string name="Vote_text_cancel">Je ne veux pas :-(</string>
+    <!-- Notifications -->
+    <string name="timer_started">Minuterie Commencé</string>
+    <string name="click_to_open">Cliquez ici pour ouvrir l\'application</string>
+    <!-- Settings -->
+    <string name="title_activity_settings">Configuration</string>
+    <string name="melody">Sonnerie de notification</string>
+    <string name="ringtone_error">N\'a pas été trouvée sonnerie pour les notifications, qui sera utilisée par défaut</string>
+    <string name="vibrate">La vibration</string>
+    <string name="vibrate_short">Courte vibration</string>
+    <string name="vibrate_long">Vibration longue</string>
+
+</resources>

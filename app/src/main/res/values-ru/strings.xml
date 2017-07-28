@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Таймер</string>
+    <string name="start">Старт</string>
+    <string name="pause">Пауза</string>
+    <string name="reset">Сброс</string>
+    <string name="close">Закрыть</string>
+    <string name="time_is_now">Время пришло!</string>
+    <string name="timer_expired">Таймер истек</string>
+    <string name="ringtone_error">Не была найдена мелодия для уведомления, будет использована по умолчанию</string>
+    <!-- About -->
+    <string name="Vote_text">Вам понравилось наше приложение?\nОцените его в Google Play!\nНам, как разработчикам, будет очень приятно!</string>
+    <string name="Vote_text_ok">Оценить!</string>
+    <string name="Text_to_vote">Будем очень признательны за оставленные комментарии и оценки</string>
+    <string name="Market_error">Не могу открыть Google Play, пожалуйста установите его заново.</string>
+    <string name="Choose_email_client">Выберите приложение для отправки письма:</string>
+    <string name="Share_error">Установите социальные приложения и повторите попытку.</string>
+    <string name="Share_via">Поделиться с помощью</string>
+    <string name="Text_later">Позже</string>
+    <string name="title_activity_about">О программе</string>
+    <string name="Vote_text_cancel">Не хочу :-(</string>
+    <string name="Share_text_ask">Вам понравилось наше приложение?\nРасскажите о нём своим друзьям и знакомыми!</string>
+    <string name="Share_text_ok">Рассказать!</string>
+    <string name="Share_text_cancel">Промолчу</string>
+    <string name="Share_text">Поделиться \nс друзьями</string>
+    <string name="AboutText">Название программы:</string>
+    <string name="Developer">Разработчик: Владимир Петрович Тимофеев</string>
+    <string name="Site">Сайт автора:</string>
+    <!-- Notifications -->
+    <string name="timer_started">Таймер запущен</string>
+    <string name="click_to_open">Нажмите здесь, чтобы открыть приложение</string>
+    <!-- Settings -->
+    <string name="title_activity_settings">Настройки</string>
+    <string name="vibrate">Вибрация</string>
+    <string name="vibrate_short">Короткая вибрация</string>
+    <string name="vibrate_long">Долгая вибрация</string>
+    <string name="melody">Мелодия уведомления</string>
+    <string name="drawer_apps">Другие приложения</string>
+    <string name="drawer_cdtimer">Таймер</string>
+    <string name="drawer_communication">Общение</string>
+    <string name="drawer_send">Отправить</string>
+    <string name="drawer_settings">Настройки</string>
+    <string name="drawer_share">Поделиться</string>
+    <string name="drawer_timer">Секундомер</string>
+    <string name="add">Добавить</string>
+    <string name="add_stopwatch">Добавить секундомер</string>
+    <string name="cancel">Отменить</string>
+    <string name="card_menu_remove">Удалить</string>
+    <string name="change">Изменить</string>
+    <string name="change_name">Изменить название</string>
+    <string name="save">Сохранить</string>
+    <string name="edittext_name">Название</string>
+    <string name="undo">Отменить изменения</string>
+    <string name="navigation_drawer_open">Открыть боковое меню</string>
+    <string name="navigation_drawer_close">Закрыть боковое меню</string>
+    <string name="item_removed">Элемент удален</string>
+    <string name="drawer_about">О приложении</string>
+    <string name="stopwatch">Секундомер</string>
+    <string name="card_note">Запись</string>
+    <string name="add_timer">Добавить таймер</string>
+    <string name="change_time">Изменить время</string>
+    <string name="timer_left">"| Осталось: "</string>
+    <string name="timer_running">Таймер работает</string>
+    <string name="stopwatch_time">" | Время: "</string>
+    <string name="stopwatch_running">Секундомер запущен</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Timer</string>
+    <string name="start">Inicio</string>
+    <string name="pause">Pausa</string>
+    <string name="reset">Restablecer</string>
+    <string name="close">Cerrar</string>
+    <string name="time_is_now">El tiempo es ahora!</string>
+    <string name="timer_expired">Ha transcurrido el tiempo</string>
+    <!-- About -->
+    <string name="Vote_text">Disfrutado de nuestra aplicación?\nEvalúe en Google Play!\nNosotros, como desarrolladores, será muy agradable!</string>
+    <string name="Vote_text_ok">Evaluar!</string>
+    <string name="Text_to_vote">Estaremos muy agradecidos por los comentarios y calificaciones</string>
+    <string name="Market_error">No puedo abrir el Google Play, por favor, vuelva a instalarlo.</string>
+    <string name="Choose_email_client">Seleccione la aplicación para enviar mensajes:</string>
+    <string name="Share_error">Instale aplicaciones sociales y vuelva a intentarlo.</string>
+    <string name="Share_via">Compartir a través de</string>
+    <string name="Text_later">Más adelante</string>
+    <string name="title_activity_about">Acerca del programa</string>
+    <string name="Vote_text_cancel">No quiero :-(</string>
+    <string name="Share_text_ask">Disfrutado de nuestra aplicación?\nCuéntanos acerca de él sus amigos y conocidos!</string>
+    <string name="Share_text_ok">Comparte!</string>
+    <string name="Share_text_cancel">Nada que decir</string>
+    <string name="Share_text">Compartir \ncon amigos</string>
+    <string name="AboutText">Nombre del programa:</string>
+    <string name="Developer">Desarrollador: Vladimir Petrovich Timofeev</string>
+    <string name="Site">Sitio web del autor:</string>
+    <!-- Notifications -->
+    <string name="timer_started">Temporizador Comenzó</string>
+    <string name="click_to_open">Haga clic aquí para abrir la aplicación</string>
+     <!-- Settings -->
+    <string name="title_activity_settings">Configuración</string>
+    <string name="melody">Tono de notificación</string>
+    <string name="ringtone_error">No se ha encontrado una señal de llamada para las notificaciones, se utilizará de forma predeterminada</string>
+    <string name="vibrate">Vibración</string>
+    <string name="vibrate_short">Vibración corta</string>
+    <string name="vibrate_long">Vibración larga</string>
+
+</resources>

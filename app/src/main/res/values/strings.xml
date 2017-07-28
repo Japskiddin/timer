@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Timer</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="close">Close</string>
+    <string name="time_is_now">The time is now!</string>
+    <string name="timer_expired">Timer expired</string>
+    <string name="timer_start_value" translatable="false">00:00:00</string>
+
+
+    <!-- About -->
+    <string name="AboutYear" translatable="false">2016</string>
+    <string name="Market_url" translatable="false">market://details?id=com.rusdelphi.timer</string>
+    <string name="Market_error">Can not open Google Play, please reinstall it.</string>
+    <string name="title_activity_about">About</string>
+    <string name="Share_error">Install social applications and try again.</string>
+    <string name="Choose_email_client">Select an application to send a message:</string>
+    <string name="Text_to_vote">We will be very grateful for comments and ratings left</string>
+    <string name="Vote_text">Do you like our app?\nRate on Google Play!\nWe, as developers, will be very pleased!</string>
+    <string name="Vote_text_ok">Rate the application!</string>
+    <string name="Vote_text_cancel">I do not want :-(</string>
+    <string name="Share_text_ask">Do you like our app?\nTell about it to your friends and acquaintances!</string>
+    <string name="Share_text_ok">Share!</string>
+    <string name="Text_later">Later</string>
+    <string name="Share_via">Share via</string>
+    <string name="Share_text_cancel">Say nothing</string>
+    <string name="Share_text">Share \nwith friends</string>
+    <string name="AboutText">Application name:</string>
+    <string name="Developer">Developer: Vladimir Petrovich Timofeev</string>
+    <string name="Site">Website:</string>
+    <string name="Site_URL" translatable="false">rusdelphi.com</string>
+    <string name="E_mail" translatable="false">E-mail:</string>
+    <string name="E_mail_value" translatable="false">rusdelphi@gmail.com</string>
+    <string name="URL_to_vote" translatable="false">https://play.google.com/store/apps/details?id=com.rusdelphi.timer</string>
+
+    <!-- Notifications -->
+    <string name="timer_started">Timer Started</string>
+    <string name="click_to_open">Click here to open the application</string>
+
+    <!-- Admob -->
+    <string name="pubID" translatable="false">ca-app-pub-6362541338086032/7065792305</string>
+    <string name="melody">Notification ringtone</string>
+    <string name="ringtone_error">Not found the melody for notifications, will be used by default</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="vibrate">Vibration</string>
+
+    <!-- Settings
+    <string name="title_activity_settings">Settings</string>-->
+    <!--Manifest-->
+    <string name="filter_title_viewrusdelphi" translatable="false">rusdelphi</string>
+    <string name="vibrate_long">Long vibration</string>
+    <string name="vibrate_short">Short vibration</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="drawer_timer">Stopwatch</string>
+    <string name="drawer_cdtimer">Timer</string>
+    <string name="site_addr" translatable="false">android-tools.ru</string>
+    <string name="drawer_share">Share</string>
+    <string name="drawer_send">Send</string>
+    <string name="drawer_apps">Apps</string>
+    <string name="drawer_communication">Communication</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="card_menu_remove">Remove</string>
+    <string name="add_stopwatch">Add stopwatch</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="change">Change</string>
+    <string name="save">Save</string>
+    <string name="change_name">Change name</string>
+    <string name="send_message">Send message</string>
+    <string name="share_text">Share text</string>
+    <string name="edittext_name">Name</string>
+    <string name="item_removed">Item removed</string>
+    <string name="undo">Undo</string>
+    <string name="drawer_about">About</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="card_note">Note</string>
+    <string name="add_timer">Add timer</string>
+    <string name="change_time">Change time</string>
+    <string name="timer_left">" | Time left: "</string>
+    <string name="timer_running">Running timer</string>
+    <string name="stopwatch_time">" | Time: "</string>
+    <string name="stopwatch_running">Running stopwatch</string>
+    <string name="card_menu">Card menu</string>
+    <string name="image_header">Image header</string>
+    <string name="grid" translatable="false">Grid</string>
+    <string name="colon" translatable="false">:</string>
+
+
+</resources>

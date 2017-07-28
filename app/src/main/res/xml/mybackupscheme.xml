@@ -1,0 +1,6 @@
+<full-backup-content>
+    <include
+        domain="sharedpref"
+        path="MainActivity.xml" />
+
+</full-backup-content>

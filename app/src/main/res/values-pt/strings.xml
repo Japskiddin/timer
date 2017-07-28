@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Timer</string>
+    <string name="start">Começo</string>
+    <string name="pause">Pausa</string>
+    <string name="reset">Reset</string>
+    <string name="close">Fechar</string>
+    <string name="time_is_now">A hora é agora!</string>
+    <string name="timer_expired">O temporizador expirou</string>
+
+    <!-- About -->
+    <string name="Vote_text">Você gostou do nosso aplicativo?\nTaxa sobre Google Play!\nNós, como desenvolvedores, será muito bom!</string>
+    <string name="Vote_text_ok">De avaliar!</string>
+    <string name="Text_to_vote">Somos muito gratos por deixadas por estes comentários e avaliações</string>
+    <string name="Market_error">Não consigo acessar o Google Play, por favor, reinstale-a.</string>
+    <string name="Choose_email_client">Selecione o aplicativo para envio de e-mails:</string>
+    <string name="Share_error">Instale aplicativos sociais e tente novamente.</string>
+    <string name="Share_via">Compartilhar com o</string>
+    <string name="Text_later">Mais tarde</string>
+    <string name="title_activity_about">Sobre o programa</string>
+    <string name="Vote_text_cancel">Não quero :-(</string>
+    <string name="Share_text_ask">Você gostou do nosso aplicativo?\nConte-nos sobre isso a seus amigos e conhecidos!</string>
+    <string name="Share_text_ok">Compartilhe!</string>
+    <string name="Share_text_cancel">Não falar</string>
+    <string name="Share_text">Compartilhar \ncom os amigos</string>
+    <string name="AboutText">Nome do programa:</string>
+    <string name="Developer">Desenvolvedor: Vladimir Petrovic Ativos</string>
+    <string name="Site">Site do autor:</string>
+    <!-- Notifications -->
+    <string name="timer_started">Timer Começou</string>
+    <string name="click_to_open">Clique aqui para abrir o aplicativo</string>
+    <!-- Settings -->
+    <string name="title_activity_settings">Configuração</string>
+    <string name="melody">Toque de notificação</string>
+    <string name="ringtone_error">Não foi encontrado melodia para a notificação, será usado por padrão</string>
+    <string name="vibrate">Vibração</string>
+    <string name="vibrate_short">Curta vibração</string>
+    <string name="vibrate_long">Vibração longo</string>
+
+</resources>
