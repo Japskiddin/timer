@@ -18,6 +18,7 @@ public class SP {
     static final String VIBRATE = "VIBRATE";
     static final String VIBRATE_SHORT = "VIBRATE_SHORT";
     static final String VIBRATE_LONG = "VIBRATE_LONG";
+    static final String WIDGET = "WIDGET";
     private static SharedPreferences mSettings;
 
     private static SharedPreferences getSettings(Context context) {

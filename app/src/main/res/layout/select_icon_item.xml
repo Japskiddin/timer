@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:drawablePadding="10sp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="old icon"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_stopwatch_name" />
