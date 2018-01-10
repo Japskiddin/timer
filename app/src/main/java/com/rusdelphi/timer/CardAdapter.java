@@ -48,11 +48,11 @@ class CardAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     StopwatchHolder(View view) {
       super(view);
-      digital_clock = (TextView) view.findViewById(R.id.tv_digital_clock_card);
-      name = (TextView) view.findViewById(R.id.name_stopwatch_card);
-      startBtn = (Button) view.findViewById(R.id.start_button_card);
-      resetBtn = (Button) view.findViewById(R.id.reset_button_card);
-      menuBtn = (ImageView) view.findViewById(R.id.card_menu);
+      digital_clock = view.findViewById(R.id.tv_digital_clock_card);
+      name = view.findViewById(R.id.name_stopwatch_card);
+      startBtn = view.findViewById(R.id.start_button_card);
+      resetBtn = view.findViewById(R.id.reset_button_card);
+      menuBtn = view.findViewById(R.id.card_menu);
     }
   }
 
@@ -60,16 +60,16 @@ class CardAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private TextView digital_clock, name;
     private Button startBtn, resetBtn;
     private ImageView menuBtn;
-    private MyTimePicker tp;
+    private TimePicker tp;
 
     TimerHolder(View view) {
       super(view);
-      digital_clock = (TextView) view.findViewById(R.id.digital_clock_card_timer);
-      name = (TextView) view.findViewById(R.id.name_timer_card);
-      startBtn = (Button) view.findViewById(R.id.start_button_card_timer);
-      resetBtn = (Button) view.findViewById(R.id.reset_button_card_timer);
-      menuBtn = (ImageView) view.findViewById(R.id.card_menu_timer);
-      tp = (MyTimePicker) view.findViewById(R.id.timePicker);
+      digital_clock = view.findViewById(R.id.digital_clock_card_timer);
+      name = view.findViewById(R.id.name_timer_card);
+      startBtn = view.findViewById(R.id.start_button_card_timer);
+      resetBtn = view.findViewById(R.id.reset_button_card_timer);
+      menuBtn = view.findViewById(R.id.card_menu_timer);
+      tp = view.findViewById(R.id.timePicker);
       tp.setIs24HourView(true);
       tp.setCurrentSecond(0);
       tp.setCurrentMinute(0);
@@ -166,9 +166,9 @@ class CardAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         holder.digital_clock.setTypeface(
             Typeface.createFromAsset(mContext.getAssets(), "DS-DIGI.TTF"));
         holder.name.setText(object.getName());
-        holder.tp.setOnTimeChangedListener(new MyTimePicker.OnTimeChangedListener() {
+        holder.tp.setOnTimeChangedListener(new TimePicker.OnTimeChangedListener() {
           @Override
-          public void onTimeChanged(MyTimePicker view, int hourOfDay, int minute, int seconds) {
+          public void onTimeChanged(TimePicker view, int hourOfDay, int minute, int seconds) {
             listener.updateTime(holder.getAdapterPosition(), view.getCurrentMillis());
           }
         });

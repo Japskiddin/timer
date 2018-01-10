@@ -65,5 +65,12 @@
     <string name="timer_running">Таймер работает</string>
     <string name="stopwatch_time">" | Время: "</string>
     <string name="stopwatch_running">Секундомер запущен</string>
+  <string name="appwidget_text">ПРИМЕР</string>
+    <string name="configure">Настроить</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="send_message">Отправить сообщение</string>
+    <string name="share_text">Поделиться текстом</string>
+    <string name="card_menu">Меню карты</string>
+    <string name="image_header">Изображение заголовка</string>
 
 </resources>

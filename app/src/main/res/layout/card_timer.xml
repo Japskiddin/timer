@@ -44,7 +44,7 @@
         android:textColor="@color/text_color"
         android:textSize="40sp" />
 
-    <com.rusdelphi.timer.MyTimePicker
+    <com.rusdelphi.timer.TimePicker
         android:id="@+id/timePicker"
         android:layout_width="180dp"
         android:layout_height="180dp"

@@ -44,13 +44,13 @@ import java.util.Calendar;
  *
  * For a dialog using this view, see {@link android.app.TimePickerDialog}.
  */
-public class MyTimePicker extends FrameLayout {
+public class TimePicker extends FrameLayout {
 
   /**
    * A no-op callback used in the constructor to avoid null checks later in the code.
    */
   private static final OnTimeChangedListener NO_OP_CHANGE_LISTENER = new OnTimeChangedListener() {
-    public void onTimeChanged(MyTimePicker view, int hourOfDay, int minute, int seconds) {
+    public void onTimeChanged(TimePicker view, int hourOfDay, int minute, int seconds) {
     }
   };
 
@@ -90,18 +90,18 @@ public class MyTimePicker extends FrameLayout {
      * @param minute The current minute.
      * @param seconds The current second.
      */
-    void onTimeChanged(MyTimePicker view, int hourOfDay, int minute, int seconds);
+    void onTimeChanged(TimePicker view, int hourOfDay, int minute, int seconds);
   }
 
-  public MyTimePicker(Context context) {
+  public TimePicker(Context context) {
     this(context, null);
   }
 
-  public MyTimePicker(Context context, AttributeSet attrs) {
+  public TimePicker(Context context, AttributeSet attrs) {
     this(context, attrs, 0);
   }
 
-  public MyTimePicker(Context context, AttributeSet attrs, int defStyle) {
+  public TimePicker(Context context, AttributeSet attrs, int defStyle) {
     super(context, attrs, defStyle);
 
     LayoutInflater inflater =

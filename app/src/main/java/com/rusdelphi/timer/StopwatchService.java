@@ -7,8 +7,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.IBinder;
+import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.app.NotificationCompat;
 import android.util.Log;
 import com.rusdelphi.timer.models.Stopwatch;
 import java.text.SimpleDateFormat;
@@ -60,7 +60,7 @@ public class StopwatchService extends Service {
   }
 
   private void runAsForeground() {
-    builder = new NotificationCompat.Builder(this);
+    builder = new NotificationCompat.Builder(this, getString(R.string.app_name));
     startForeground(NOTIFICATION_ID, builder.build());
   }
 
@@ -93,7 +93,7 @@ public class StopwatchService extends Service {
           Log.d("Status", "Start");
           Stopwatch stopwatch = (Stopwatch) intent.getSerializableExtra("Stopwatch");
 
-          if (stopwatch.getStartTime() == 0) {
+          if (stopwatch.getStartTime() == 0) { //SystemClock.elapsedRealtime()
             stopwatch.setStartTime(System.currentTimeMillis());
           } else {
             stopwatch.setTimeDelay(System.currentTimeMillis() - (stopwatch.getStartTime()
